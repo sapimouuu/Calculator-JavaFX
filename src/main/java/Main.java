@@ -23,9 +23,14 @@ public class Main extends Application {
         TextField angka2 = new TextField();
         angka2.setPromptText("Angka kedua");
 
+        //BUTTON
+        Button tambah = new Button("+");
+        Button kurang = new Button("-");
+        Button kali = new Button("x");
+        Button bagi = new Button("÷");
         Button hasil = new Button("=");
-        Label akhir = new Label("");
 
+        Label akhir = new Label("");
         Label error = new Label("");
 
         hasil.setOnAction(event -> {
